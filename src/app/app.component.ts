@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  fontSizePx = 16;
+  
   title = 'hello-angular';
   nameArray = ['Tom', 'Meo', 'Tu'];
   

@@ -10,6 +10,8 @@ import { VoteTakerComponent } from './votetaker/votetaker.component';
 import { VoterComponent } from './voter/voter.component';
 import { CountdownLocalVarParentComponent } from './countdown-parent/countdown-parent.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
+import { SizerComponent } from './sizer/sizer.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CountdownTimerComponent } from './countdown-timer/countdown-timer.compo
     VoteTakerComponent,
     VoterComponent,
     CountdownLocalVarParentComponent,
-    CountdownTimerComponent
+    CountdownTimerComponent,
+    SizerComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
